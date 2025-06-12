@@ -1,0 +1,199 @@
+# AWS Cloud Portfolio Project
+
+> **A comprehensive full-stack web application demonstrating proficiency across multiple AWS services**
+
+This project showcases hands-on experience with AWS cloud infrastructure by building a scalable, secure, and monitored web application using industry best practices and modern cloud architecture patterns.
+
+## 🎯 Project Overview
+
+**Objective:** Develop a personal portfolio website with dynamic blog functionality that demonstrates practical knowledge of core AWS services and cloud architecture principles.
+
+**Architecture Philosophy:** Serverless-first approach with emphasis on security, scalability, and cost optimization while maintaining high availability and performance.
+
+## 🏗️ System Architecture
+
+The application follows a multi-tier architecture pattern with clear separation of concerns:
+
+- **Presentation Layer:** Static assets served via CloudFront and S3
+- **Application Layer:** RESTful APIs hosted on EC2 with auto-scaling capabilities  
+- **Data Layer:** Managed database services with automated backups
+- **Security Layer:** IAM roles, security groups, and encryption at rest/transit
+- **Monitoring Layer:** Comprehensive logging and alerting infrastructure
+
+## 🛠️ Technology Stack
+
+| Layer | AWS Service | Purpose | Implementation Status |
+|-------|-------------|---------|----------------------|
+| **Content Delivery** | CloudFront + S3 | Global content distribution and static hosting | 🔄 In Progress |
+| **Compute** | EC2 + Auto Scaling | Scalable web server infrastructure | ⏳ Planned |
+| **Database** | RDS (MySQL) | Persistent data storage with automated backups | ⏳ Planned |
+| **Security** | IAM + VPC | Identity management and network isolation | ⏳ Planned |
+| **Monitoring** | CloudWatch + X-Ray | Application performance monitoring and tracing | ⏳ Planned |
+| **Automation** | Lambda + EventBridge | Event-driven serverless functions | ⏳ Planned |
+
+## 📋 Technical Implementation
+
+### Phase 1: Static Web Infrastructure
+**Current Focus:** S3 static website hosting with CloudFront distribution
+
+**Key Features:**
+- Responsive web design with modern UI/UX
+- Optimized asset delivery through CDN
+- SSL/TLS encryption for secure connections
+- Custom domain configuration
+
+### Phase 2: Dynamic Backend Services
+**Objective:** EC2-based API server with load balancing
+
+**Planned Features:**
+- RESTful API endpoints for content management
+- Session management and user authentication
+- Horizontal scaling with Application Load Balancer
+- Blue-green deployment strategy
+
+### Phase 3: Database Integration
+**Objective:** Persistent data layer with high availability
+
+**Planned Features:**
+- Multi-AZ RDS deployment for fault tolerance
+- Automated backup and point-in-time recovery
+- Read replicas for improved read performance
+- Database connection pooling and optimization
+
+### Phase 4: Security Hardening
+**Objective:** Enterprise-grade security implementation
+
+**Planned Features:**
+- Least privilege IAM policies and roles
+- VPC with private subnets for database tier
+- Security groups with restrictive inbound rules
+- AWS WAF for application-layer protection
+
+### Phase 5: Monitoring & Automation
+**Objective:** Operational excellence and automated incident response
+
+**Planned Features:**
+- Custom CloudWatch metrics and dashboards
+- Automated alerting for system anomalies
+- Lambda-based automated remediation
+- Cost optimization through resource scheduling
+
+## 🏛️ Infrastructure as Code
+
+All AWS resources are defined and managed through:
+- **CloudFormation templates** for reproducible infrastructure
+- **Parameterized stacks** for environment-specific deployments
+- **Version-controlled configurations** for change tracking
+- **Automated rollback capabilities** for failed deployments
+
+## 📊 Performance & Scalability
+
+**Design Targets:**
+- **Availability:** 99.9% uptime SLA
+- **Response Time:** < 200ms average API response
+- **Throughput:** Support for 1000+ concurrent users
+- **Scalability:** Auto-scaling based on CPU and memory metrics
+
+**Cost Optimization:**
+- Designed to operate within AWS Free Tier limits
+- Right-sized instances based on actual usage patterns
+- Automated resource scheduling for non-production environments
+- Regular cost analysis and optimization reviews
+
+## 🔒 Security Implementation
+
+**Security Controls:**
+- **Data Encryption:** AES-256 encryption at rest, TLS 1.3 in transit
+- **Access Control:** Role-based access with MFA requirements
+- **Network Security:** VPC isolation with NACLs and security groups
+- **Audit Logging:** CloudTrail integration for compliance tracking
+
+**Compliance Considerations:**
+- Following AWS Well-Architected Framework principles
+- Implementation of security best practices from AWS Security Pillar
+- Regular security assessments and vulnerability scanning
+
+## 📈 Monitoring & Observability
+
+**Operational Metrics:**
+- Application performance monitoring with custom metrics
+- Distributed tracing for request flow analysis
+- Log aggregation and centralized monitoring
+- Automated alerting for service degradation
+
+**Business Metrics:**
+- User engagement analytics
+- Content performance tracking
+- Resource utilization optimization
+- Cost per transaction analysis
+
+## 🚀 Deployment Pipeline
+
+**CI/CD Workflow:**
+1. **Code Commit:** Automated testing triggers
+2. **Build Process:** Artifact creation and validation
+3. **Security Scanning:** Static analysis and vulnerability assessment
+4. **Deployment:** Staged rollout with automated rollback
+5. **Monitoring:** Post-deployment health checks
+
+## 📁 Repository Structure
+
+```
+aws-cloud-portfolio/
+├── infrastructure/           # CloudFormation templates and IaC
+│   ├── networking/          # VPC, subnets, routing
+│   ├── compute/             # EC2, auto-scaling, load balancers
+│   ├── storage/             # S3, RDS configurations
+│   └── security/            # IAM policies, security groups
+├── application/             # Application source code
+│   ├── frontend/            # Static web assets
+│   ├── backend/             # API server implementation
+│   └── database/            # Schema and migration scripts
+├── monitoring/              # CloudWatch configs and dashboards
+├── automation/              # Lambda functions and event rules
+├── docs/                    # Architecture and implementation docs
+└── scripts/                 # Deployment and utility scripts
+```
+
+## 🎯 Learning Outcomes
+
+This project demonstrates practical experience with:
+
+**Core AWS Services:**
+- Compute: EC2, Auto Scaling, Load Balancing
+- Storage: S3, EBS, lifecycle management
+- Database: RDS, backup strategies, performance tuning
+- Networking: VPC, subnets, routing, security groups
+
+**Advanced Concepts:**
+- Infrastructure as Code with CloudFormation
+- Event-driven architecture with Lambda
+- Monitoring and observability best practices
+- Security implementation and compliance
+- Cost optimization and resource management
+
+**Professional Skills:**
+- Cloud architecture design and implementation
+- DevOps practices and automation
+- Performance optimization and troubleshooting
+- Documentation and knowledge sharing
+
+## 🔗 Live Deployment
+
+**Production URL:** [Will be updated upon completion]  
+**Staging Environment:** [Development deployment for testing]
+
+## 📚 Technical Documentation
+
+- [Architecture Decision Records](./docs/architecture/)
+- [API Documentation](./docs/api/)
+- [Deployment Guide](./docs/deployment/)
+- [Security Guidelines](./docs/security/)
+- [Monitoring Runbook](./docs/monitoring/)
+
+---
+
+**Project Status:** Active Development  
+**Current Phase:** Static Infrastructure Implementation  
+**Next Milestone:** EC2 Backend Services Integration  
+**Technology Stack:** AWS Cloud Services, HTML5/CSS3/JavaScript, Node.js/Express
