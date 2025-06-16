@@ -61,7 +61,7 @@
 
 ---
 
-## [Today's Date] - Day 2: 🚀 PHASE 2 COMPLETE: EC2 Backend Server Deployed
+## Day 2: 🚀 PHASE 2 COMPLETE: EC2 Backend Server Deployed
 
 **Major milestone achieved:**
 Successfully deployed a Node.js API server on Amazon EC2 that's accessible from anywhere on the internet!
@@ -112,7 +112,15 @@ Successfully deployed a Node.js API server on Amazon EC2 that's accessible from 
 - Health check returns JSON with server status, timestamp, and uptime
 - Server info endpoint provides technical environment details
 - Contact form handler ready for frontend integration
-- All endpoints tested and responding correctly from internet
+- All endpoints tested and responding correctly from the internet
+
+**Screenshots of work done**
+- Working website
+  ![Website](https://github.com/user-attachments/assets/eedfab74-d398-45ea-8352-646d1a9cb212)
+- EC2 terminal API
+  ![EC2_Terminal API health](https://github.com/user-attachments/assets/b2454585-b01c-4ffa-a980-2ff46b75ff97)
+- Website API URL test
+  ![Website URL](https://github.com/user-attachments/assets/7eb68e72-ea08-4b84-b558-05271d1b109c)
 
 **Key concepts mastered:**
 - **Virtual servers in the cloud:** EC2 instances are like renting computers in Amazon's data centers
