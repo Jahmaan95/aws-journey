@@ -26,7 +26,7 @@ The application follows a multi-tier architecture pattern with clear separation 
 | Layer | AWS Service | Purpose | Implementation Status |
 |-------|-------------|---------|----------------------|
 | **Content Delivery** | S3 | Global content distribution and static hosting | Complete |
-| **Compute** | EC2 | Web server infrastructure | ⏳ Planned |
+| **Compute** | EC2 | Web server infrastructure | Complete |
 | **Database** | RDS (MySQL) | Persistent data storage with automated backups | ⏳ Planned |
 | **Security** | IAM + VPC | Identity management and network isolation | ⏳ Planned |
 | **Monitoring** | CloudWatch + X-Ray | Application performance monitoring and tracing | ⏳ Planned |
