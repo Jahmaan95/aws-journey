@@ -15,7 +15,7 @@ This project showcases hands-on experience with AWS cloud infrastructure by buil
 
 The application follows a multi-tier architecture pattern with clear separation of concerns:
 
-- **Presentation Layer:** Static assets served via CloudFront and S3
+- **Presentation Layer:** Static assets served via S3
 - **Application Layer:** RESTful APIs hosted on EC2 with auto-scaling capabilities  
 - **Data Layer:** Managed database services with automated backups
 - **Security Layer:** IAM roles, security groups, and encryption at rest/transit
@@ -25,7 +25,7 @@ The application follows a multi-tier architecture pattern with clear separation 
 
 | Layer | AWS Service | Purpose | Implementation Status |
 |-------|-------------|---------|----------------------|
-| **Content Delivery** | CloudFront + S3 | Global content distribution and static hosting | 🔄 In Progress |
+| **Content Delivery** | S3 | Global content distribution and static hosting | Complete |
 | **Compute** | EC2 + Auto Scaling | Scalable web server infrastructure | ⏳ Planned |
 | **Database** | RDS (MySQL) | Persistent data storage with automated backups | ⏳ Planned |
 | **Security** | IAM + VPC | Identity management and network isolation | ⏳ Planned |
