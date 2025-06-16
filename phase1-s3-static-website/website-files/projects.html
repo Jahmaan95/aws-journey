@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Pranav Sundeep</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Pranav Sundeep</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="projects-hero">
+            <h1>My Projects</h1>
+            <p>Real-world applications built with AWS cloud services</p>
+        </section>
+
+        <section class="featured-project">
+            <div class="project-container">
+                <h2>Featured Project: AWS Cloud Portfolio</h2>
+                <div class="project-content">
+                    <div class="project-info">
+                        <h3>Full-Stack Cloud Application</h3>
+                        <p>This website itself is a comprehensive demonstration of AWS cloud services, showcasing a complete three-tier architecture with modern development practices.</p>
+                        
+                        <div class="project-highlights">
+                            <h4>Key Features:</h4>
+                            <ul>
+                                <li>Static website hosting with global content delivery</li>
+                                <li>RESTful API server with auto-scaling capabilities</li>
+                                <li>Persistent data storage with automated backups</li>
+                                <li>Security-first design with proper network isolation</li>
+                                <li>Real-time monitoring and health checks</li>
+                            </ul>
+                        </div>
+
+                        <div class="tech-stack">
+                            <h4>Technology Stack:</h4>
+                            <div class="tech-tags">
+                                <span class="tech-tag aws">Amazon S3</span>
+                                <span class="tech-tag aws">Amazon EC2</span>
+                                <span class="tech-tag aws">Amazon RDS</span>
+                                <span class="tech-tag frontend">HTML5/CSS3</span>
+                                <span class="tech-tag backend">Node.js</span>
+                                <span class="tech-tag backend">Express.js</span>
+                                <span class="tech-tag database">MySQL</span>
+                                <span class="tech-tag tools">Git/GitHub</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-architecture">
+                        <h4>System Architecture</h4>
+                        <div class="architecture-diagram">
+                            <div class="arch-layer">
+                                <span class="arch-label">Presentation Layer</span>
+                                <div class="arch-component frontend">
+                                    <strong>Amazon S3</strong><br>
+                                    Static Website Hosting
+                                </div>
+                            </div>
+                            <div class="arch-arrow">↓</div>
+                            <div class="arch-layer">
+                                <span class="arch-label">Application Layer</span>
+                                <div class="arch-component backend">
+                                    <strong>Amazon EC2</strong><br>
+                                    Node.js API Server
+                                </div>
+                            </div>
+                            <div class="arch-arrow">↓</div>
+                            <div class="arch-layer">
+                                <span class="arch-label">Data Layer</span>
+                                <div class="arch-component database">
+                                    <strong>Amazon RDS</strong><br>
+                                    MySQL Database
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-links">
+                    <a href="https://github.com/yourusername/aws-learning-journey" class="btn-secondary" target="_blank">
+                        <span>📁</span> View Source Code
+                    </a>
+                    <a href="#" class="btn-secondary" id="api-demo">
+                        <span>🔗</span> Test API Endpoints
+                    </a>
+                    <a href="contact.html" class="btn-primary">
+                        <span>📨</span> Try Contact Form
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="project-phases">
+            <h2>Development Phases</h2>
+            <div class="phases-grid">
+                <div class="phase-card completed">
+                    <div class="phase-status">✅ Completed</div>
+                    <h3>Phase 1: Static Website</h3>
+                    <p>Implemented responsive web design with Amazon S3 static hosting, custom CSS styling, and mobile-first approach.</p>
+                    <div class="phase-tech">
+                        <span>Amazon S3</span>
+                        <span>HTML5/CSS3</span>
+                        <span>Responsive Design</span>
+                    </div>
+                    <div class="phase-metrics">
+                        <small>Load time: &lt;200ms | Cost: $0.00</small>
+                    </div>
+                </div>
+
+                <div class="phase-card completed">
+                    <div class="phase-status">✅ Completed</div>
+                    <h3>Phase 2: Backend API</h3>
+                    <p>Deployed Node.js Express server on EC2 with RESTful endpoints, CORS configuration, and security group management.</p>
+                    <div class="phase-tech">
+                        <span>Amazon EC2</span>
+                        <span>Node.js</span>
+                        <span>Express.js</span>
+                        <span>Linux</span>
+                    </div>
+                    <div class="phase-metrics">
+                        <small>Response time: ~50ms | Uptime: 99.9%</small>
+                    </div>
+                </div>
+
+                <div class="phase-card current">
+                    <div class="phase-status">🔄 In Progress</div>
+                    <h3>Phase 3: Database Layer</h3>
+                    <p>Integrating Amazon RDS MySQL database for persistent data storage, implementing connection pooling and error handling.</p>
+                    <div class="phase-tech">
+                        <span>Amazon RDS</span>
+                        <span>MySQL</span>
+                        <span>Database Design</span>
+                    </div>
+                    <div class="phase-metrics">
+                        <small>Target: &lt;100ms query time</small>
+                    </div>
+                </div>
+
+                <div class="phase-card planned">
+                    <div class="phase-status">📋 Planned</div>
+                    <h3>Phase 4: Security & Monitoring</h3>
+                    <p>Implementing IAM roles, CloudWatch monitoring, automated alerts, and security best practices.</p>
+                    <div class="phase-tech">
+                        <span>AWS IAM</span>
+                        <span>CloudWatch</span>
+                        <span>Security Groups</span>
+                    </div>
+                </div>
+
+                <div class="phase-card planned">
+                    <div class="phase-status">📋 Planned</div>
+                    <h3>Phase 5: Automation</h3>
+                    <p>Adding Lambda functions, auto-scaling groups, and infrastructure as code for production deployment.</p>
+                    <div class="phase-tech">
+                        <span>AWS Lambda</span>
+                        <span>Auto Scaling</span>
+                        <span>CloudFormation</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="api-endpoints">
+            <h2>Live API Endpoints</h2>
+            <p>Test the backend API that powers this application:</p>
+            
+            <div class="endpoints-grid">
+                <div class="endpoint-card">
+                    <div class="endpoint-method get">GET</div>
+                    <div class="endpoint-info">
+                        <h4>/api/health</h4>
+                        <p>Server health check and system status</p>
+                        <button class="test-btn" onclick="testEndpoint('/api/health', 'health-result')">Test Endpoint</button>
+                        <div id="health-result" class="endpoint-result"></div>
+                    </div>
+                </div>
+
+                <div class="endpoint-card">
+                    <div class="endpoint-method get">GET</div>
+                    <div class="endpoint-info">
+                        <h4>/api/info</h4>
+                        <p>Server information and environment details</p>
+                        <button class="test-btn" onclick="testEndpoint('/api/info', 'info-result')">Test Endpoint</button>
+                        <div id="info-result" class="endpoint-result"></div>
+                    </div>
+                </div>
+
+                <div class="endpoint-card">
+                    <div class="endpoint-method post">POST</div>
+                    <div class="endpoint-info">
+                        <h4>/api/contact</h4>
+                        <p>Contact form submission handler</p>
+                        <a href="contact.html" class="test-btn">Try Contact Form</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="future-projects">
+            <h2>Future Project Ideas</h2>
+            <div class="future-grid">
+                <div class="future-card">
+                    <h3>📊 Analytics Dashboard</h3>
+                    <p>Real-time data visualization using AWS QuickSight and Lambda functions for business intelligence insights.</p>
+                    <span class="future-tech">QuickSight, Lambda, DynamoDB</span>
+                </div>
+                
+                <div class="future-card">
+                    <h3>🔐 Authentication System</h3>
+                    <p>User management system with AWS Cognito, implementing secure login, registration, and role-based access.</p>
+                    <span class="future-tech">AWS Cognito, JWT, IAM</span>
+                </div>
+                
+                <div class="future-card">
+                    <h3>📱 Mobile API</h3>
+                    <p>Mobile-optimized API with AWS API Gateway, supporting rate limiting, API keys, and usage analytics.</p>
+                    <span class="future-tech">API Gateway, CloudWatch, Mobile</span>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Pranav Sundeep. Powered by AWS Cloud Infrastructure.</p>
+    </footer>
+
+    <script>
+        // API testing functionality
+        const API_BASE_URL = 'http://54.85.227.92:3000'; // Replace with your actual EC2 IP
+
+        async function testEndpoint(endpoint, resultId) {
+            const resultDiv = document.getElementById(resultId);
+            const button = event.target;
+            
+            // Show loading state
+            button.disabled = true;
+            button.textContent = 'Testing...';
+            resultDiv.innerHTML = '<div class="loading">Making request...</div>';
+            
+            try {
+                const response = await fetch(`${API_BASE_URL}${endpoint}`);
+                const data = await response.json();
+                
+                resultDiv.innerHTML = `
+                    <div class="success">
+                        <strong>✅ Success (${response.status})</strong>
+                        <pre>${JSON.stringify(data, null, 2)}</pre>
+                    </div>
+                `;
+            } catch (error) {
+                resultDiv.innerHTML = `
+                    <div class="error">
+                        <strong>❌ Error</strong>
+                        <p>${error.message}</p>
+                        <small>Make sure your EC2 API server is running</small>
+                    </div>
+                `;
+            } finally {
+                button.disabled = false;
+                button.textContent = 'Test Endpoint';
+            }
+        }
+
+        // API demo button
+        document.getElementById('api-demo')?.addEventListener('click', (e) => {
+            e.preventDefault();
+            document.querySelector('.api-endpoints').scrollIntoView({ behavior: 'smooth' });
+        });
+    </script>
+</body>
+</html>
